@@ -18,9 +18,12 @@
 
         <br>
 
-        <label for="mail">Male</label>
-
-
+        <label for="male">Male</label>
+        <input type="radio" name="gender identity" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender identity" id="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender identity" id="other">
         <br>
 
         <label for="email">Enter your email address</label>
@@ -31,7 +34,17 @@
 
         <br>
 
+        <label for="tc">I agree to the terms and conditions</label>
+        <input type="checkbox" name="tc" id="tc" required>
 
+        <br>
+        <select name="color">
+            <option value="RED">Red</option>
+            <option value="BLUE">Blue</option>
+            <option value="GREEN">Green</option>
+        </select>
+
+        <br>
         <input type="submit">
     </form>
 </body>
