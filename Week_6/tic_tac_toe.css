@@ -1,17 +1,29 @@
-body{
-    text-align:center;
+table{
+    border-collapse: collapse;
+    width:300px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 td{
     width:100px;
     height:100px;
+
+    border:1px solid black;
 }
 
-table{
-    border:black 1px;
-
+.top{
+    border-top:2px solid white;
 }
 
-#top{
-    border-top:none;
+.bottom{
+    border-bottom:2px solid white;
+}
+
+.left{
+    border-left:2px solid white;
+}
+
+.right{
+    border-right:2px solid white;
 }
